@@ -1,0 +1,61 @@
+string maxwellChoice = Console.ReadLine();
+if (maxwellChoice == "1")
+{
+    // Outcome 2.1.1.1.1.2.1: Sentence Maxwell to Execution
+    Console.WriteLine("Your heart hardens, and you choose to sentence Maxwell to execution.");
+    Console.WriteLine("He pleads one last time, but you remain resolute, not letting your emotions waver.");
+    Console.WriteLine("Press Enter to continue.");
+    Console.ReadLine();
+
+    Console.WriteLine("As Maxwell's life force fades away, you feel an overwhelming sense of power.");
+    Console.WriteLine("Your grip on the dark side tightens, and the last traces of light within you diminish.");
+    Console.WriteLine("In that moment, you fully embrace the darkness, becoming the ruler of a chaotic multiverse.");
+    Console.WriteLine("Your journey ends with the complete dominion of darkness.");
+    Console.WriteLine("Press Enter to continue.");
+    Console.ReadLine();
+
+    // TODO: Continue the story, wrapping up the adventure with the player's choice for the ending.
+
+    Console.WriteLine("Tell me, did you make the right choice?");
+    Console.ReadLine();
+    Console.WriteLine("Doesn's matter... you made your choice");
+    Console.ReadLine();
+    Console.WriteLine("Hope youre satisfied as the story ends here");
+    Console.ReadLine();
+}
+else if (maxwellChoice == "2")
+{
+    // Outcome 2.1.1.1.1.2.2: Banish Maxwell
+    Console.WriteLine("Though the darkness is strong, you still cannot bear to harm Maxwell.");
+    Console.WriteLine("With a heavy heart, you choose to banish him from your presence.");
+    Console.WriteLine("Maxwell pleads once more, but you turn your back on him.");
+    Console.WriteLine("Press Enter to continue.");
+    Console.ReadLine();
+
+    Console.WriteLine("As Maxwell walks away, you feel a pang of remorse, but you suppress it.");
+    Console.WriteLine("Your commitment to the dark side remains unwavering.");
+    Console.WriteLine("With Maxwell gone, you are free to continue your quest for even more power.");
+    Console.WriteLine("You are now a solitary force, feared and respected across the multiverse.");
+
+    // TODO: Continue the story, wrapping up the adventure with the player's choice for the ending.
+
+    Console.WriteLine("Congratulations! You have completed the adventure. Thank you for playing!");
+    Console.ReadLine();
+}
+else
+{
+    // Outcome 2.1.1.1.1.2.3: Indecisive with Maxwell
+    Console.WriteLine("You stand there indecisively, unable to make a clear choice regarding Maxwell.");
+    Console.WriteLine("In your confusion, Maxwell understands that the darkness has not fully consumed you.");
+    Console.WriteLine("He disappears into the shadows, leaving you to ponder your decision.");
+
+    // TODO: Continue the story, wrapping up the adventure with the player's choice for the ending.
+
+    Console.WriteLine("The multiverse awaits your decision, and the consequences of your actions are yet to unfold.");
+    Console.WriteLine("Your adventure continues, and the path you choose will shape the destiny of all.");
+
+    // TODO: Continue the story, wrapping up the adventure with the player's choice for the ending.
+
+    Console.WriteLine("Congratulations! You have completed the adventure. Thank you for playing!");
+    Console.ReadLine();
+}

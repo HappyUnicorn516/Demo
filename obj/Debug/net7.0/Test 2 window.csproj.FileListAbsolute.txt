@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\bin\Debug\net7.0\Test 2 window.exe
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\bin\Debug\net7.0\Test 2 window.deps.json
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\bin\Debug\net7.0\Test 2 window.runtimeconfig.json
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\bin\Debug\net7.0\Test 2 window.dll
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\bin\Debug\net7.0\Test 2 window.pdb
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\obj\Debug\net7.0\Test 2 window.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\obj\Debug\net7.0\Test 2 window.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\obj\Debug\net7.0\Test 2 window.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\obj\Debug\net7.0\Test 2 window.AssemblyInfo.cs
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\obj\Debug\net7.0\Test 2 window.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\obj\Debug\net7.0\Test 2 window.dll
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\obj\Debug\net7.0\refint\Test 2 window.dll
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\obj\Debug\net7.0\Test 2 window.pdb
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\obj\Debug\net7.0\Test 2 window.genruntimeconfig.cache
+C:\Users\Administrator\Documents\VS code\CS\Test 2 window\obj\Debug\net7.0\ref\Test 2 window.dll

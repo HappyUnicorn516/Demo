@@ -1,0 +1,64 @@
+using System;
+
+namespace ChooseYourAdventureGame
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome to the Dark Humor Adventure Game!");
+            Console.WriteLine("You find yourself in a mysterious world with strange characters around.");
+            Console.WriteLine("You spot a Crewmate from Among Us, Michael Myers, Shrek, Thomas the thermonuclear bomb,");
+            Console.WriteLine("a Ramen Noodles Rocket Launcher, 'The Guy from Fortnite' meme, a Peashooter from Plants vs. Zombies,");
+            Console.WriteLine("Finn the Human from Adventure Time, Daryl from The Walking Dead, and Eren Jaeger from Attack on Titan.");
+
+            // The game starts here, and you can continue adding the story and interactions.
+            // You can use the same structure as in the previous examples to prompt the user for choices and create different scenarios.
+
+            Console.WriteLine("You encounter Shrek, who challenges you to a dance-off. Will you...");
+            Console.WriteLine("1 - Accept the challenge and show off your dance moves");
+            Console.WriteLine("2 - Politely decline and ask Shrek about his swamp");
+
+            string ans = Console.ReadLine();
+
+            if (ans == "1")
+            {
+                Console.WriteLine("You start dancing like there's no tomorrow, and surprisingly, Shrek is impressed!");
+                Console.WriteLine("He rewards you with a bag of onions and offers to be your dance partner in the future.");
+                Console.WriteLine("You gain +10 Dance Skills and +5 Friendship with Shrek.");
+                Console.WriteLine("Press Enter to continue.");
+                Console.ReadLine();
+            }
+            else if (ans == "2")
+            {
+                Console.WriteLine("You ask Shrek about his swamp, and he starts sharing his life stories.");
+                Console.WriteLine("As you listen, you realize that Shrek is a deep and thoughtful ogre.");
+                Console.WriteLine("You gain +5 Friendship with Shrek.");
+                Console.WriteLine("Press Enter to continue.");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("You hesitate, and Shrek looks confused. He walks away, leaving you standing there.");
+                Console.WriteLine("Press Enter to continue.");
+                Console.ReadLine();
+            }
+
+            // Add more scenarios, interactions, and battles with other characters like Michael Myers, Crewmate, etc.
+
+            Console.WriteLine("Thank you for playing the Dark Humor Adventure Game!");
+            Console.WriteLine("Would you like to play again? (yes/no)");
+            string playAgain = Console.ReadLine();
+
+            if (playAgain.ToLower() == "yes")
+            {
+                // Restart the game if the player wants to play again.
+                Main(args);
+            }
+            else
+            {
+                Console.WriteLine("Goodbye! Come back soon for more dark humor adventures!");
+            }
+        }
+    }
+}

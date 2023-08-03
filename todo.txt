@@ -1,0 +1,27 @@
+characters
+
+- sylveon
+- Fred
+- Cam
+- hiroshima
+- hitler
+- Peashooter
+- Jonesy
+- Eren Jaeger
+- spongebob
+
+
+actions
+
+- make michael myers fuckable maybe i guess idk
+
+copy paste
+
+Console.WriteLine("");
+Console.WriteLine("");
+Console.ReadLine();
+
+Console.WriteLine("Press enter");
+Console.ReadLine();
+
+Environment.Exit(0);

@@ -1,0 +1,285 @@
+using System;
+
+namespace ChooseYourAdventureGame
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Introduction
+            Console.WriteLine("Welcome to the multiverse!");
+            Console.WriteLine("You find yourself in a mysterious world with strange characters around.");
+
+            // Storyline 1: Shrek Encounter
+            Console.WriteLine("You encounter Shrek, who challenges you to a dance-off. Will you...");
+            Console.WriteLine("1 - Accept the challenge and show off your dance moves");
+            Console.WriteLine("2 - Politely decline and ask Shrek about his swamp");
+
+            string ans = Console.ReadLine();
+
+            if (ans == "1")
+            {
+                // Outcome 1: Dance-Off with Shrek
+                Console.WriteLine("You start dancing like there's no tomorrow, and surprisingly, Shrek is impressed!");
+                Console.WriteLine("He rewards you with a bag of onions and offers to be your dance partner in the future.");
+                Console.WriteLine("You gain +10 Dance Skills and +5 Friendship with Shrek.");
+                Console.WriteLine("Press Enter to continue.");
+                Console.ReadLine();
+
+                // Storyline 2: The Mysterious Chest
+                Console.WriteLine("As you continue your journey, you come across a mysterious chest.");
+                Console.WriteLine("Will you...");
+                Console.WriteLine("1 - Open the chest");
+                Console.WriteLine("2 - Ignore the chest and keep moving forward");
+
+                string chestChoice = Console.ReadLine();
+                if (chestChoice == "1")
+                {
+                    // Outcome 2.1: Open the Chest
+                    Console.WriteLine("You decide to open the chest, and to your surprise, it's filled with gold and treasures!");
+                    Console.WriteLine("You gain +100 Gold and +20 Luck.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else if (chestChoice == "2")
+                {
+                    // Outcome 2.2: Ignore the Chest
+                    Console.WriteLine("You decide to ignore the chest and continue on your adventure.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("You stand there indecisively and nothing happens.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+
+                // Storyline 3: Encounter with Michael Myers
+                Console.WriteLine("As you venture deeper into the unknown, you encounter a fearsome creature: Michael Myers!");
+                Console.WriteLine("Will you...");
+                Console.WriteLine("1 - Attempt to reason with Michael Myers");
+                Console.WriteLine("2 - Engage in a battle with Michael Myers");
+                Console.WriteLine("3 - Run away as fast as you can");
+
+                string michaelChoice = Console.ReadLine();
+                if (michaelChoice == "1")
+                {
+                    // Outcome 3.1: Reason with Michael Myers
+                    Console.WriteLine("You try to reason with Michael Myers, but he doesn't seem to respond.");
+                    Console.WriteLine("It's best to leave him be and continue your journey.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else if (michaelChoice == "2")
+                {
+                    // Outcome 3.2: Battle with Michael Myers (Assuming a Pokemon-like battle)
+                    Console.WriteLine("You challenge Michael Myers to a Pokemon-like battle!");
+                    // Implement the battle system here.
+                    Console.WriteLine("After an intense battle, Michael Myers retreats!");
+                    Console.WriteLine("You gain +50 Experience Points and +10 Courage.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else if (michaelChoice == "3")
+                {
+                    // Outcome 3.3: Run Away from Michael Myers
+                    Console.WriteLine("You run away as fast as you can, leaving Michael Myers behind.");
+                    Console.WriteLine("Your heart is pounding, but you manage to escape.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("You freeze in fear, and Michael Myers approaches slowly...");
+                    Console.WriteLine("It's the end of the line for you.");
+                    Console.WriteLine("GAME OVER.");
+                    Console.WriteLine("Press Enter to exit.");
+                    Console.ReadLine();
+                    Environment.Exit(0);
+                }
+            }
+            else if (ans == "2")
+            {
+                // Outcome 4: Ask Shrek About His Swamp
+                Console.WriteLine("You ask Shrek about his swamp, and he starts sharing his life stories.");
+                Console.WriteLine("As you listen, you realize that Shrek is a deep and thoughtful ogre.");
+                Console.WriteLine("You gain +5 Friendship with Shrek.");
+                Console.WriteLine("Press Enter to continue.");
+                Console.ReadLine();
+
+                // Storyline 4: Encounter with Crewmate from Among Us
+                Console.WriteLine("As you continue your journey, you come across a peculiar sight: Crewmate from Among Us.");
+                Console.WriteLine("Crewmate seems to be in distress and needs your help.");
+                Console.WriteLine("Will you...");
+                Console.WriteLine("1 - Offer to help Crewmate find its spaceship");
+                Console.WriteLine("2 - Ignore Crewmate and continue on your adventure");
+                Console.WriteLine("3 - Make a dark humor joke about Crewmate being an imposter");
+
+                string crewmateChoice = Console.ReadLine();
+                if (crewmateChoice == "1")
+                {
+                    // Outcome 4.1: Help Crewmate Find Its Spaceship
+                    Console.WriteLine("You decide to help Crewmate find its spaceship.");
+                    Console.WriteLine("Crewmate thanks you and rewards you with a special Crewmate pet that follows you on your journey.");
+                    Console.WriteLine("You gain +10 Kindness and +5 Luck.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else if (crewmateChoice == "2")
+                {
+                    // Outcome 4.2: Ignore Crewmate
+                    Console.WriteLine("You decide to ignore Crewmate and continue your adventure.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else if (crewmateChoice == "3")
+                {
+                    // Outcome 4.3: Dark Humor Joke about Crewmate
+                    Console.WriteLine("You make a dark humor joke about Crewmate being an imposter.");
+                    Console.WriteLine("Crewmate looks hurt, and you realize it wasn't the best thing to say.");
+                    Console.WriteLine("You lose -5 Friendship with Crewmate.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("You stand there indecisively, and Crewmate gets bored waiting for your response.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+
+                // Storyline 5: Encounter with Thomas the Thermonuclear Bomb
+                Console.WriteLine("As you venture deeper into the unknown, you encounter Thomas the thermonuclear bomb.");
+                Console.WriteLine("Thomas looks at you menacingly, but it seems he wants to have a conversation.");
+                Console.WriteLine("Will you...");
+                Console.WriteLine("1 - Engage in a serious discussion with Thomas about life and existence");
+                Console.WriteLine("2 - Make a dark humor joke about Thomas being 'the bomb'");
+                Console.WriteLine("3 - Attempt to disarm Thomas");
+
+                string thomasChoice = Console.ReadLine();
+                if (thomasChoice == "1")
+                {
+                    // Outcome 5.1: Serious Discussion with Thomas
+                    Console.WriteLine("You engage in a serious discussion with Thomas about life and existence.");
+                    Console.WriteLine("Thomas appreciates your deep thoughts and gives you a book of philosophical quotes.");
+                    Console.WriteLine("You gain +15 Wisdom.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else if (thomasChoice == "2")
+                {
+                    // Outcome 5.2: Dark Humor Joke about Thomas
+                    Console.WriteLine("You make a dark humor joke about Thomas being 'the bomb.'");
+                    Console.WriteLine("Thomas chuckles and responds with a bomb pun.");
+                    Console.WriteLine("You gain +5 Humor.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else if (thomasChoice == "3")
+                {
+                    // Outcome 5.3: Attempt to Disarm Thomas
+                    Console.WriteLine("You attempt to disarm Thomas, but it's no use.");
+                    Console.WriteLine("Thomas is too well-built, and disarming him would be impossible.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("You stand there indecisively, and Thomas gives you a knowing look.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+            }
+            else
+            {
+                // Outcome 6: Hesitate with Shrek
+                Console.WriteLine("You hesitate, and Shrek looks confused. He walks away, leaving you standing there.");
+                Console.WriteLine("Press Enter to continue.");
+                Console.ReadLine();
+
+                // Storyline 6: Encounter with Floating Walmart
+                Console.WriteLine("As you stand there, a bright light shines from the sky, and a floating Walmart appears!");
+                Console.WriteLine("The floating Walmart seems to be offering you something.");
+                Console.WriteLine("Will you...");
+                Console.WriteLine("1 - Approach the floating Walmart to see what it wants");
+                Console.WriteLine("2 - Ignore the floating Walmart and continue your adventure");
+                Console.WriteLine("3 - Make a dark humor joke about floating Walmarts");
+
+                string walmartChoice = Console.ReadLine();
+                if (walmartChoice == "1")
+                {
+                    // Outcome 6.1: Approach the Floating Walmart
+                    Console.WriteLine("You cautiously approach the floating Walmart.");
+                    Console.WriteLine("It turns out that the floating Walmart is offering you a special discount!");
+                    Console.WriteLine("You can buy any item from the Walmart store for half the price.");
+                    Console.WriteLine("Will you buy something?");
+                    Console.WriteLine("1 - Yes, buy something");
+                    Console.WriteLine("2 - No, continue your adventure");
+
+                    string buyChoice = Console.ReadLine();
+                    if (buyChoice == "1")
+                    {
+                        // Outcome 6.1.1: Buy Something from Walmart
+                        Console.WriteLine("You decide to take advantage of the discount and buy a Ramen Noodles Rocket Launcher!");
+                        Console.WriteLine("This powerful weapon will aid you on your journey.");
+                        Console.WriteLine("You gain +15 Attack Power and +10 Creativity.");
+                        Console.WriteLine("Press Enter to continue.");
+                        Console.ReadLine();
+                    }
+                    else if (buyChoice == "2")
+                    {
+                        // Outcome 6.1.2: Decline Walmart's Offer
+                        Console.WriteLine("You politely decline the offer and continue your adventure.");
+                        Console.WriteLine("Press Enter to continue.");
+                        Console.ReadLine();
+                    }
+                    else
+                    {
+                        Console.WriteLine("You stand there indecisively, and the floating Walmart drifts away.");
+                        Console.WriteLine("Press Enter to continue.");
+                        Console.ReadLine();
+                    }
+                }
+                else if (walmartChoice == "2")
+                {
+                    // Outcome 6.2: Ignore the Floating Walmart
+                    Console.WriteLine("You decide to ignore the floating Walmart and continue your adventure.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else if (walmartChoice == "3")
+                {
+                    // Outcome 6.3: Dark Humor Joke about Floating Walmart
+                    Console.WriteLine("You make a dark humor joke about floating Walmarts.");
+                    Console.WriteLine("The floating Walmart gives you a deadpan stare.");
+                    Console.WriteLine("You lose -5 Humor.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("You stand there indecisively, and the floating Walmart slowly floats away.");
+                    Console.WriteLine("Press Enter to continue.");
+                    Console.ReadLine();
+                }
+            }
+
+            // Game Ending and Restart Option
+            Console.WriteLine("Thank you for playing my crazy adventure!");
+            Console.WriteLine("Would you like to play again? (yes/no)");
+            string playAgain = Console.ReadLine();
+
+            if (playAgain.ToLower() == "yes")
+            {
+                // Restart the game if the player wants to play again.
+                Main(args);
+            }
+            else
+            {
+                Console.WriteLine("Goodbye! Come back soon for more crazy adventures!");
+                Console.ReadLine();
+            }
+        }
+    }
+}
